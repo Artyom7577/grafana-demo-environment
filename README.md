@@ -35,8 +35,6 @@ Copy environments/smpt.env.example to environments/smpt.env and set the appropri
 git clone https://github.com/grafana/demo-prometheus-and-grafana-alerts
 cd demo-prometheus-and-grafana-alerts
 
-mkdir -p dashboards
-
 docker compose up -d
 docker compose ps
 ```
