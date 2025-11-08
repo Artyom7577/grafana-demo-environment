@@ -22,8 +22,7 @@ Copy environments/smpt.env.example to environments/smpt.env and set the appropri
 
 - **Docker** & **Docker Compose plugin**  
   - Check: `docker --version` and `docker compose version`
-- **Node.js 18+** (for running the test data JS scripts)  
-  - Check: `node -v`
+- **k6** (Grafana k6)
 - grafana-cpu-metrics.json
 
 ---
@@ -37,6 +36,10 @@ cd demo-prometheus-and-grafana-alerts
 
 docker compose up -d
 docker compose ps
+
+then
+
+You can clone this repository to access the grafana-cpu-metrics.json file, or you can copy its contents directly without cloning.
 ```
 - Open Grafana → http://localhost:3000
 - Go to Dashboards → New → Import
